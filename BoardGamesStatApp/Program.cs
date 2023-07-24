@@ -23,7 +23,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IBoardGameService, BoardGameService>();
 builder.Services.AddScoped<IBoardGameRepository, BoardGameRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddSingleton<IJWTManagerRepository, JWTManagerRepository>();
+//builder.Services.AddSingleton<IJWTManagerRepository, JWTManagerRepository>();
 
 // Add Database
 
